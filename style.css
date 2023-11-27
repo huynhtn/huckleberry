@@ -10,51 +10,57 @@ body {
 }
 
 /* Add styles here! */
-
-header {
+header p {
 }
 
-header .max-width-wrapper {
-  max-width: 650px;
-  margin: auto;
-  padding: 64px 0px;
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .intro-chunk {
-  padding: 16px;
+  padding-top: 96px;
+  padding-bottom: 64px;
+  padding-left: 24px;
 }
-
-h1 {
-  margin-bottom: 32px;
+.intro-chunk p {
+  font-size: 1.25rem;
+}
+.title {
+  margin-bottom: 48px;
+  font-size: 2rem;
 }
 
 strong {
   color: hsl(160deg, 100%, 30%);
 }
-main .max-width-wrapper {
+
+main {
   background-color: hsl(0deg, 0%, 30%);
-  border-top: 7px solid hsl(0deg, 0%, 60%);
-  padding: 64px 0px;
+  padding-top: 72px;
+  padding-bottom: 58px;
+  margin: 0;
+  border-top: 8px solid hsl(0deg, 0%, 40%);
 }
 
 .card {
   background-color: white;
-  max-width: 650px;
-  margin: auto;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+  padding: 0 3rem;
   padding-top: 8px;
+  margin-left: -24px;
 }
 
-h2 {
+.indented-heading {
+  margin: 0;
+  margin-left: -56px;
   background-color: hsl(45deg, 100%, 50%);
-  border-bottom: 7px solid hsl(45deg, 100%, 40%);
-  width: fit-content;
-  padding: 8px 16px;
-  margin: 0;
-  margin-left: -8px;
+  max-width: fit-content;
+  padding: 16px 32px;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
 }
 
-.card p {
-  line-height: 1.5;
-  padding: 16px;
-  margin: 0;
+main p {
+  line-height: 1.2;
+  font-size: 1.25rem;
 }
